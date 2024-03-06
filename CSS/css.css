@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f11111;
+    color: #ffffff;
+    padding: 9px 406px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-style: italic;
+    font-style: normal;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+header h1 {
+    margin: 0;
+    display: inline;
+    white-space: nowrap; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5b03ff;
+    font-weight: bold;
+    display: inline;
+    text-align: left;
+    white-space: nowrap; 
+}
+
+footer {
+    background-color: #f11111;
+    color: #ffffff;
+    padding: 9px 575px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-style: normal;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* Image container para imagen de biografia */
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.image-container img {
+    max-width: 400%; 
+    height: auto;   
+    max-height: 300px; 
+}
+
+
+/* Boton Biografia y volver */
+.botonbio {
+    display: block;
+    margin: 20px auto; 
+    padding: 12px 50px;
+    background-color: #ff0101; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 28px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.botonbio {
+    background-color: #ff0101;
+}
+
+.bio-text {
+    text-align: justify;
+    font-size: 3px;
+    font-style: italic;
+}
+.bio-text {
+    flex: 3;
+    margin-right: 2px; /* Ajusta el espacio entre la imagen y el texto según tus necesidades */
+}
+.text-container {
+    margin-bottom: 1px;
+    margin-left: auto;
+}
+
+.image-container img {
+    max-width: 200%; /* Asegúrate de que la imagen no exceda el ancho del contenedor */
+    height: auto;
+}
